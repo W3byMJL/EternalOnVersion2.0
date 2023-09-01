@@ -1,0 +1,52 @@
+/*navigation bar stuff*/
+.topnav {
+    background-color: #741F8A;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ffd524;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #ffd524;
+    color: black;
+}
+
+.topnav icon {
+    display: none;
+}
+
+/*main body stuff*/
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    background: #741F8A;
+}
+
+h1 {
+    margin-top: 0em;
+}
+
+.content {
+    max-width: 960px;
+    margin: auto;
+    background: white;
+    /*padding: 10px;*/
+}
